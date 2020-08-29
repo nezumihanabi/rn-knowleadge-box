@@ -7,7 +7,7 @@ export default function DetailView(props) {
   return (
     <View>
       <Text style={detailStyle}>メモ : {item.memo}</Text>
-      <Image source={"./image.nezumi.jpg"} />
+      <Image source={item.image} />
     </View>
   );
 }
